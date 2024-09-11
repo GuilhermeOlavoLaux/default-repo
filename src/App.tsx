@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  const a = 2;
+  var a = 23;
   return (
     <div className="App">
       <h1>Teste</h1>
