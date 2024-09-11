@@ -23,7 +23,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off', // Desative a regra do TypeScript
     'unused-imports/no-unused-imports': 'error', // Regra para imports não utilizados
     'unused-imports/no-unused-vars': [
-      'warn',
+      'error',
       {
         vars: 'all',
         args: 'after-used',
@@ -32,7 +32,7 @@ module.exports = {
     ],
     'prefer-const': 'error',
     'no-var': 'error',
-    'no-console': 'warn',
+    'no-console': 'error',
     'react/jsx-uses-vars': 'error',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
